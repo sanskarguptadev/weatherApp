@@ -64,7 +64,7 @@ class App extends Component {
       });
       return;
     }
-    Axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_Key}`).then(
+    Axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_Key}`).then(
       (response) => {
         this.setState({
           city: response.data.name,
