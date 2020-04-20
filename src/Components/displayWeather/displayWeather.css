@@ -1,0 +1,9 @@
+.display{
+    width: 100%;
+    height: auto;
+}
+
+
+i[class^="wi-"], i[class*=" wi-"] {
+    font-size: 80px;
+}

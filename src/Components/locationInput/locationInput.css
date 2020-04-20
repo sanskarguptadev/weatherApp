@@ -1,0 +1,16 @@
+input{
+    margin: 10px;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    outline: none;
+}
+.btn{
+    background-color: aqua;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: green;
+    outline: none;
+}

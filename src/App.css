@@ -1,3 +1,8 @@
+body > #root > div {
+  margin-top: -21px;
+  height: 103.3Vh;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Rain {
+  background-image: url('./assets/selective-focus-photo-of-obalte-green-leafed-plants-during-1463530.jpg') !important;
+  width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.Cloud {
+  background-image: url('./assets/taylor-van-riper-yQorCngxzwI-unsplash.jpg') !important;
+  width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.Sunny {
+  background-image: url('./assets/joshua-sortino-XMcoTHgNcQA-unsplash.jpg') !important;
+  width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.Fog {
+  background-image: url('./assets/ankhesenamun-VrArrh9MlxQ-unsplash.jpg') !important;
+  width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.Thunder {
+  background-image: url('./assets/noaa-p9BRX1mBfe4-unsplash.jpg') !important;
+  width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
